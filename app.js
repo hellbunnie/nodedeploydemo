@@ -1,7 +1,7 @@
 "use strict";
 
 var express = require("express");
-var port = 8081;
+var port = process.env.PORT || 8081;
 
 var app = express();
 
