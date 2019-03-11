@@ -6,7 +6,7 @@ var port = process.env.PORT || 8081;
 var app = express();
 
 app.get("/", function (req, res) {
-    app.send("Wow, I deployed a node app!!");
+    res.send("Wow, I deployed a node app!!");
 });
 
 
